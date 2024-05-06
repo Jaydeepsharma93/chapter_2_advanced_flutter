@@ -18,3 +18,18 @@ Ios
 <img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/025b3147-90bd-4d41-85ce-2d0ba108b8fb" width = 32%>
 
 
+## Date Picker:
+
+  * A user interface element that allows users to choose a date.
+  * It typically displays a calendar grid where users can tap on a specific day to select it.
+  * Date pickers are commonly found in apps for booking appointments, scheduling events, or filtering data based on dates.
+
+## Time Picker:
+  * A temporary window that appears on top of the main app screen.
+  * It often contains important information, requires user input, or presents a confirmation message.
+  * Dialog boxes can have buttons for users to respond to the prompt, such as "OK," "Cancel," or other choices.
+    
+## Date Picker Cupertino (iOS):
+  * A specific type of date picker designed to match the look and feel of Apple's iOS platform.
+  * It offers a sleek, minimalist design with a calendar grid for selecting dates.
+  * This is used by developers building apps specifically for iOS devices.
