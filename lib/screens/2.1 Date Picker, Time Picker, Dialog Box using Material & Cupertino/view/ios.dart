@@ -1,3 +1,4 @@
+import 'package:chapter_2_advanced_flutter/screens/2.1%20Date%20Picker,%20Time%20Picker,%20Dialog%20Box%20using%20Material%20&%20Cupertino/view/ios2.dart';
 import 'package:flutter/material.dart';
 
 class IosView extends StatelessWidget {
@@ -6,28 +7,25 @@ class IosView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.teal,
-          actions: const [
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: Icon(Icons.more_vert),
-            )
-          ],
-          actionsIconTheme: const IconThemeData(color: Colors.white),
-          leading: const Icon(
-            Icons.menu,
-            color: Colors.white,
+      debugShowCheckedModeBanner: false,
+      themeMode: ThemeMode.system,
+      theme: ThemeData(
+          datePickerTheme: DatePickerThemeData(
+              backgroundColor: Colors.teal
           ),
-          title: const Text(
-            'Date Picker',
-            style: TextStyle(color: Colors.white),
-          ),
-          centerTitle: true,
-        ),
+          colorScheme: ColorScheme.light(
+              primary: Colors.teal,
+              secondary: Color(0xff135D66).withOpacity(0.6)
+          )
       ),
+      darkTheme: ThemeData(
+          colorScheme: ColorScheme.dark(
+              primary: Colors.teal,
+              secondary:  Color(0xff135D66).withOpacity(0.6)
+          )
+      ),
+      color: Theme.of(context).colorScheme.primary,
+      home: IosScreen(),
     );
   }
 }
-
