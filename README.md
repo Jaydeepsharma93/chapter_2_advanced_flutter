@@ -33,3 +33,12 @@ Ios
   * A specific type of date picker designed to match the look and feel of Apple's iOS platform.
   * It offers a sleek, minimalist design with a calendar grid for selecting dates.
   * This is used by developers building apps specifically for iOS devices.
+## Time Picker Cupertino (iOS):
+ * Similar to the date picker, this is a time picker designed for iOS that follows the Cupertino (iOS) design language.
+ * It might use rotary dials or a list for selecting hours and minutes.
+ * This component is used in conjunction with the Cupertino date picker or independently for time selection within iOS apps.
+
+## Action Sheet:
+ * Another type of temporary window that appears from the bottom of the screen.
+ * It typically displays a list of options for users to choose from.
+ * Action sheets are often used for quick actions or providing alternative choices related to the current context in the app.
