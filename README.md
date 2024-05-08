@@ -42,3 +42,12 @@ Ios
  * Another type of temporary window that appears from the bottom of the screen.
  * It typically displays a list of options for users to choose from.
  * Action sheets are often used for quick actions or providing alternative choices related to the current context in the app.
+
+
+# 2.2 Cupertino Widgets
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/e07795eb-e751-4fe3-bbbe-bdbeb19e7593" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/cbbbc641-31d7-49ea-b972-d348be84bcf8" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/25224d8f-717b-488d-bc3e-8635c90812e7" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/7efad15f-8c19-4c4c-a8fa-b1011aa3d424" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/4e6fee08-5899-49f8-a50d-b2e8542dea74" width = 32%>
+<dev><video src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/35ce83bf-ee5f-4ab7-a355-e90e9b9eceb9" width = 32%></dev>
