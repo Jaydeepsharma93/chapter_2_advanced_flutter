@@ -42,3 +42,66 @@ Ios
  * Another type of temporary window that appears from the bottom of the screen.
  * It typically displays a list of options for users to choose from.
  * Action sheets are often used for quick actions or providing alternative choices related to the current context in the app.
+
+
+# 2.2 Cupertino Widgets
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/e07795eb-e751-4fe3-bbbe-bdbeb19e7593" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/cbbbc641-31d7-49ea-b972-d348be84bcf8" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/25224d8f-717b-488d-bc3e-8635c90812e7" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/7efad15f-8c19-4c4c-a8fa-b1011aa3d424" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/4e6fee08-5899-49f8-a50d-b2e8542dea74" width = 32%>
+<dev><video src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/35ce83bf-ee5f-4ab7-a355-e90e9b9eceb9" width = 32%></dev>
+
+## What is the Platform Class in Flutter?
+The Platform class, part of the dart:io library, is a utility that provides information about the environment in which your Flutter application is running. This includes details like:
+  * Operating system (Android, iOS, macOS, Linux, Windows, Web)
+  * Operating system version
+  * Architecture (e.g., 32-bit, 64-bit)
+  * Locale
+  * Hostname
+  * Number of processors
+
+## Example of Using the Platform Class
+Here's a code snippet demonstrating how to check the platform and display a message accordingly:
+
+```http
+import 'package:flutter/material.dart';
+import 'dart:io';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    String message;
+    if (Platform.isAndroid) {
+      message = 'Running on Android!';
+    } else if (Platform.isIOS) {
+      message = 'Running on iOS!';
+    } else {
+      message = 'Running on a different platform.';
+    }
+
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Platform Example'),
+        ),
+        body: Center(
+          child: Text(message),
+        ),
+      ),
+    );
+  }
+}
+```
+
+Let's break down the code:
+
+1. We import the dart:io library to gain access to the Platform class.
+2. We define a message variable that will store the text to be shown based on the platform.
+3. We employ Platform.isAndroid and Platform.isIOS to identify the current platform.
+4. We set the message variable depending on the platform.
+5. We construct the Flutter app using MaterialApp and display the message within the Center widget.
