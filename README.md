@@ -64,7 +64,7 @@ The Platform class, part of the dart:io library, is a utility that provides info
 ## Example of Using the Platform Class
 Here's a code snippet demonstrating how to check the platform and display a message accordingly:
 
-```http
+```dart
 import 'package:flutter/material.dart';
 import 'dart:io';
 
