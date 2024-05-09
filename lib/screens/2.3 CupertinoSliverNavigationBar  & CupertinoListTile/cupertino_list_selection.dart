@@ -9,22 +9,22 @@ class ListSelection extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: CupertinoPageScaffold(
         backgroundColor: CupertinoColors.systemGrey6,
-        navigationBar: CupertinoNavigationBar(
+        navigationBar: const CupertinoNavigationBar(
           previousPageTitle: "Back",
           middle: Text("Cupertino List Enhanced"),
         ),
         child: Column(
           children: [
-            SizedBox(height: 65),
+            const SizedBox(height: 65),
             CupertinoListSection.insetGrouped(
-              footer: Text(
+              footer: const Text(
                 "Choose a single item from a list of options.",
                 style: TextStyle(
                     fontSize: 15,
                     color: CupertinoColors.systemGrey,
                     fontWeight: FontWeight.w400),
               ),
-              header: Text(
+              header: const Text(
                 "SINGLE SELECTION",
                 style: TextStyle(
                     fontSize: 15,
@@ -32,7 +32,7 @@ class ListSelection extends StatelessWidget {
                     fontWeight: FontWeight.w400),
               ),
               dividerMargin: -10,
-              children: [
+              children: const [
                 CupertinoListTile(
                   title: Text(
                     "Off",
@@ -54,14 +54,14 @@ class ListSelection extends StatelessWidget {
               ],
             ),
             CupertinoListSection.insetGrouped(
-              footer: Text(
+              footer: const Text(
                 "Choose multiple item from a list of options",
                 style: TextStyle(
                     fontSize: 15,
                     color: CupertinoColors.systemGrey,
                     fontWeight: FontWeight.w400),
               ),
-              header: Text(
+              header: const Text(
                 "MULTI SELECTION",
                 style: TextStyle(
                     fontSize: 15,
@@ -69,7 +69,7 @@ class ListSelection extends StatelessWidget {
                     fontWeight: FontWeight.w400),
               ),
               dividerMargin: -10,
-              children: [
+              children: const [
                 CupertinoListTile(
                   title: Text(
                     "Option one",
