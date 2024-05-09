@@ -9,7 +9,7 @@ class CupertinoIos extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: CupertinoPageScaffold(
         navigationBar: CupertinoNavigationBar(
-          middle: Text('IOS'),
+          middle: const Text('IOS'),
           trailing: CupertinoSwitch(
             value: true,
             onChanged: (value) {},
@@ -18,7 +18,7 @@ class CupertinoIos extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            CupertinoListTile(
+            const CupertinoListTile(
               leading: Icon(CupertinoIcons.settings),
               trailing:Icon(CupertinoIcons.arrow_right),
               title: Text('General'),
@@ -27,7 +27,7 @@ class CupertinoIos extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 CupertinoButton(
-                  child: Icon(
+                  child: const Icon(
                     CupertinoIcons.list_bullet,
                     size: 30,
                   ),
@@ -36,12 +36,12 @@ class CupertinoIos extends StatelessWidget {
                       context: context,
                       builder: (BuildContext builder) {
                         return CupertinoActionSheet(
-                          title: Text(
+                          title: const Text(
                             'Favorite Dessert',
                             style: TextStyle(
                                 fontSize: 15, fontWeight: FontWeight.w500),
                           ),
-                          message: Padding(
+                          message: const Padding(
                             padding: EdgeInsets.symmetric(vertical: 14),
                             child: Text(
                               'Please select the best dessert from the\noptions below.',
@@ -53,7 +53,7 @@ class CupertinoIos extends StatelessWidget {
                               onPressed: () {
                                 Navigator.pop(context);
                               },
-                              child: Text(
+                              child: const Text(
                                 'Profiteroles',
                                 style: TextStyle(
                                     color: CupertinoColors.activeBlue,
@@ -66,7 +66,7 @@ class CupertinoIos extends StatelessWidget {
                               onPressed: () {
                                 Navigator.pop(context);
                               },
-                              child: Text(
+                              child: const Text(
                                 'Cannolis',
                                 style: TextStyle(
                                     color: CupertinoColors.activeBlue,
@@ -79,7 +79,7 @@ class CupertinoIos extends StatelessWidget {
                               onPressed: () {
                                 Navigator.pop(context);
                               },
-                              child: Text(
+                              child: const Text(
                                 'Trifle',
                                 style: TextStyle(
                                     color: CupertinoColors.activeBlue,
@@ -109,14 +109,14 @@ class CupertinoIos extends StatelessWidget {
                 ),
               ],
             ),
-            CupertinoActivityIndicator(
+            const CupertinoActivityIndicator(
               radius: 20,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 CupertinoButton(
-                  child: Text(
+                  child: const Text(
                     'Alert Dialog',
                     style: TextStyle(fontSize: 20),
                   ),
@@ -125,12 +125,12 @@ class CupertinoIos extends StatelessWidget {
                       context: context,
                       builder: (BuildContext builder) {
                         return CupertinoAlertDialog(
-                          title: Text('Document Changed'),
+                          title: const Text('Document Changed'),
                           actions: [
                             CupertinoButton(
-                                child: Text('Cancel'), onPressed: () {}),
+                                child: const Text('Cancel'), onPressed: () {}),
                             CupertinoButton(
-                                child: Text('Save'), onPressed: () {})
+                                child: const Text('Save'), onPressed: () {})
                           ],
                         );
                       },
@@ -140,19 +140,19 @@ class CupertinoIos extends StatelessWidget {
               ],
             ),
             CupertinoButton.filled(
-              child: Text('Enter'),
+              child: const Text('Enter'),
               onPressed: () {},
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 CupertinoButton(
-                  child: Text('Date_Picker'),
+                  child: const Text('Date_Picker'),
                   onPressed: () {
                     showCupertinoModalPopup(
                       context: context,
                       builder: (BuildContext builder) {
-                        return Container(
+                        return SizedBox(
                           height: 200,
                           child: CupertinoDatePicker(
                             mode: CupertinoDatePickerMode.date,
@@ -170,12 +170,12 @@ class CupertinoIos extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 CupertinoButton(
-                  child: Text('Timer_Picker'),
+                  child: const Text('Timer_Picker'),
                   onPressed: () {
                     showCupertinoModalPopup(
                       context: context,
                       builder: (BuildContext builder) {
-                        return Container(
+                        return SizedBox(
                           height: 200,
                           child: CupertinoTimerPicker(
                             onTimerDurationChanged: (value) {
