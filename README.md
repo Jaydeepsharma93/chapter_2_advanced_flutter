@@ -113,3 +113,14 @@ Let's break down the code:
 <img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/f9355485-82f0-471a-a66b-ce4fa9f1cba4" width = 32%>
 <dev><video src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/9568c3f3-7998-4d4a-9b1a-9cb75c1f8451" width = 32%></dev>
 
+
+# 2.4 CupertinoTabBar, CupertinoSlider & CupertinoSlidingSegmentedControl
+
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/edcf816e-f26a-4867-b58e-5f1fc6118088" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/1e40238b-5dbf-4f15-848a-68c6581c888f" width = 32%>
+<img src="" width = 32%>
+<img src="" width = 32%>
+<img src="" width = 32%>
+<img src="" width = 32%>
+
+
