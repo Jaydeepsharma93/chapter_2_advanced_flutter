@@ -5,6 +5,9 @@ import 'package:chapter_2_advanced_flutter/screens/2.2%20Cupertino%20Widgets/cup
 import 'package:chapter_2_advanced_flutter/screens/2.3%20CupertinoSliverNavigationBar%20%20&%20CupertinoListTile/cupertino_list_selection.dart';
 import 'package:chapter_2_advanced_flutter/screens/2.3%20CupertinoSliverNavigationBar%20%20&%20CupertinoListTile/cupertinolistsection.dart';
 import 'package:chapter_2_advanced_flutter/screens/2.3%20CupertinoSliverNavigationBar%20%20&%20CupertinoListTile/custom_scroll.dart';
+import 'package:chapter_2_advanced_flutter/screens/2.4%20CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/bottomtab.dart';
+import 'package:chapter_2_advanced_flutter/screens/2.4%20CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/provider/tabbarprovider.dart';
+import 'package:chapter_2_advanced_flutter/screens/2.4%20CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/sliding.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -12,6 +15,9 @@ void main() {
   runApp(MultiProvider(providers: [
     ChangeNotifierProvider(
       create: (context) => DialogBoxProvider(),
+    ),
+    ChangeNotifierProvider(
+      create: (context) => TabBarProvider(),
     )
   ], child: const MyApp()));
 }
@@ -23,14 +29,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/section',
+      initialRoute: '/sliding',
       routes: {
         '/': (context) => const AndroidViewScreen(),
         '/ios': (context) => const IosView(),
         '/ios_cup': (context) => const CupertinoIos(),
         '/custom_scroll': (context) => const CustomScroll(),
         '/list_selection': (context) => const ListSelection(),
-        '/section': (context) => const CupertinoListSection2()
+        '/section': (context) => const CupertinoListSection2(),
+        '/bottom' : (context) => const Bottom(),
+        '/sliding' : (context) => const SlidingTab()
       },
     );
   }
