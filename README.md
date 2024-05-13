@@ -64,7 +64,7 @@ The Platform class, part of the dart:io library, is a utility that provides info
 ## Example of Using the Platform Class
 Here's a code snippet demonstrating how to check the platform and display a message accordingly:
 
-```http
+```dart
 import 'package:flutter/material.dart';
 import 'dart:io';
 
@@ -105,3 +105,11 @@ Let's break down the code:
 3. We employ Platform.isAndroid and Platform.isIOS to identify the current platform.
 4. We set the message variable depending on the platform.
 5. We construct the Flutter app using MaterialApp and display the message within the Center widget.
+
+# 2.3 CupertinoSliverNavigationBar  & CupertinoListTile
+
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/b09caa2d-350f-448c-88f2-524dc97a64b0" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/b708bd1c-fc25-4de0-a16b-a8e70b0396b1" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/f9355485-82f0-471a-a66b-ce4fa9f1cba4" width = 32%>
+<dev><video src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/9568c3f3-7998-4d4a-9b1a-9cb75c1f8451" width = 32%></dev>
+
