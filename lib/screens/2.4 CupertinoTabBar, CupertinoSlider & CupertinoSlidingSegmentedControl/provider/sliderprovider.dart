@@ -12,6 +12,7 @@ class SliderProvider extends ChangeNotifier{
   void automatic(bool value)
   {
     isAutomatic = value;
+
     notifyListeners();
   }
 
