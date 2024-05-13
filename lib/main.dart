@@ -6,7 +6,9 @@ import 'package:chapter_2_advanced_flutter/screens/2.3%20CupertinoSliverNavigati
 import 'package:chapter_2_advanced_flutter/screens/2.3%20CupertinoSliverNavigationBar%20%20&%20CupertinoListTile/cupertinolistsection.dart';
 import 'package:chapter_2_advanced_flutter/screens/2.3%20CupertinoSliverNavigationBar%20%20&%20CupertinoListTile/custom_scroll.dart';
 import 'package:chapter_2_advanced_flutter/screens/2.4%20CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/bottomtab.dart';
+import 'package:chapter_2_advanced_flutter/screens/2.4%20CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/provider/sliderprovider.dart';
 import 'package:chapter_2_advanced_flutter/screens/2.4%20CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/provider/tabbarprovider.dart';
+import 'package:chapter_2_advanced_flutter/screens/2.4%20CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/slider.dart';
 import 'package:chapter_2_advanced_flutter/screens/2.4%20CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/sliding.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -18,6 +20,9 @@ void main() {
     ),
     ChangeNotifierProvider(
       create: (context) => TabBarProvider(),
+    ),
+    ChangeNotifierProvider(
+      create: (context) => SliderProvider(),
     )
   ], child: const MyApp()));
 }
@@ -29,7 +34,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/sliding',
+      initialRoute: '/slider',
       routes: {
         '/': (context) => const AndroidViewScreen(),
         '/ios': (context) => const IosView(),
@@ -37,8 +42,9 @@ class MyApp extends StatelessWidget {
         '/custom_scroll': (context) => const CustomScroll(),
         '/list_selection': (context) => const ListSelection(),
         '/section': (context) => const CupertinoListSection2(),
-        '/bottom' : (context) => const Bottom(),
-        '/sliding' : (context) => const SlidingTab()
+        '/bottom': (context) => const Bottom(),
+        '/sliding': (context) => const SlidingTab(),
+        '/slider' : (context) => const SliderScreen()
       },
     );
   }
