@@ -118,9 +118,12 @@ Let's break down the code:
 
 <img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/edcf816e-f26a-4867-b58e-5f1fc6118088" width = 32%>
 <img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/1e40238b-5dbf-4f15-848a-68c6581c888f" width = 32%>
-<img src="" width = 32%>
-<img src="" width = 32%>
-<img src="" width = 32%>
-<img src="" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/deeb5922-9a02-46ed-8fbc-e1ec650b169b" width = 32%>
+
+<div><video src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/81fb385c-da66-4294-bf4b-150f79612471" width = 32%></div>
+<div><video src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/7b482446-dfb8-47ba-9118-22af46a482a4" width = 32%></div>
+<div><video src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/c5998a53-60ae-44f3-bb8f-c359d6de0354" width = 32%></div>
+
+
 
 
