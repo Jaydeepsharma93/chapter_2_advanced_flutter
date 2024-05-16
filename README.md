@@ -1,4 +1,4 @@
-![Screenshot_20240514_121413](https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/c8b232fc-f0ab-4065-b66d-edf5273594a2)# chapter_2_advanced_flutter
+# chapter_2_advanced_flutter
 
 ## 2.1 Date Picker, Time Picker, Dialog Box using Material & Cupertino
 
@@ -129,3 +129,8 @@ Let's break down the code:
 <img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/bc7e68d4-f002-4f03-af93-387a769769ac" width = 32%>
 <div><video src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/8eb0ba68-909b-445a-bb26-6eb0a111a5f3" width = 32%></div>
 
+# 2.5 CupertinoActionSheet & CupertinoContextMenu
+
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/8feb557b-8fd0-4511-abd1-9ce66dd97de4" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/20c48e71-86a3-4aa4-a40f-18b62491c676" width = 32%>
+<div><video src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/f2185d11-e533-4bd7-9fdf-ab1b2cb88578" width = 32%></div>
