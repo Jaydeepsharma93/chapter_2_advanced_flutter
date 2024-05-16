@@ -10,6 +10,7 @@ import 'package:chapter_2_advanced_flutter/screens/2.4%20CupertinoTabBar,%20Cupe
 import 'package:chapter_2_advanced_flutter/screens/2.4%20CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/provider/tabbarprovider.dart';
 import 'package:chapter_2_advanced_flutter/screens/2.4%20CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/slider.dart';
 import 'package:chapter_2_advanced_flutter/screens/2.4%20CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/sliding.dart';
+import 'package:chapter_2_advanced_flutter/screens/2.5%20CupertinoActionSheet%20&%20CupertinoContextMenu/cupertino.dart';
 import 'package:chapter_2_advanced_flutter/screens/2.5%20Page%20View%20&%20BottomNavigationBar/Bottombar.dart';
 import 'package:chapter_2_advanced_flutter/screens/2.5%20Page%20View%20&%20BottomNavigationBar/provider/bottombarprovider.dart';
 import 'package:flutter/material.dart';
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/bottom',
+      initialRoute: '/cupertino',
       routes: {
         '/': (context) => const AndroidViewScreen(),
         '/ios': (context) => const IosView(),
@@ -50,7 +51,8 @@ class MyApp extends StatelessWidget {
         '/bottom': (context) => const Bottom(),
         '/sliding': (context) => const SlidingTab(),
         '/slider': (context) => const SliderScreen(),
-        '/bottom': (context) => const BottomBar()
+        '/bottom': (context) => const BottomBar(),
+        '/cupertino' :(context) => const CupertinoWidget()
       },
     );
   }
