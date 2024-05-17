@@ -1,5 +1,5 @@
 import 'package:chapter_2_advanced_flutter/screens/2.4%20CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/bottomtab.dart';
-import 'package:chapter_2_advanced_flutter/screens/2.5%20Page%20View%20&%20BottomNavigationBar/provider/bottombarprovider.dart';
+import 'package:chapter_2_advanced_flutter/screens/2.6%20Page%20View%20&%20BottomNavigationBar/provider/bottombarprovider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

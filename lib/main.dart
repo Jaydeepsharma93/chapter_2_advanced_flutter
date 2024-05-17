@@ -11,8 +11,8 @@ import 'package:chapter_2_advanced_flutter/screens/2.4%20CupertinoTabBar,%20Cupe
 import 'package:chapter_2_advanced_flutter/screens/2.4%20CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/slider.dart';
 import 'package:chapter_2_advanced_flutter/screens/2.4%20CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/sliding.dart';
 import 'package:chapter_2_advanced_flutter/screens/2.5%20CupertinoActionSheet%20&%20CupertinoContextMenu/cupertino.dart';
-import 'package:chapter_2_advanced_flutter/screens/2.5%20Page%20View%20&%20BottomNavigationBar/Bottombar.dart';
-import 'package:chapter_2_advanced_flutter/screens/2.5%20Page%20View%20&%20BottomNavigationBar/provider/bottombarprovider.dart';
+import 'package:chapter_2_advanced_flutter/screens/2.6%20Page%20View%20&%20BottomNavigationBar/Bottombar.dart';
+import 'package:chapter_2_advanced_flutter/screens/2.6%20Page%20View%20&%20BottomNavigationBar/provider/bottombarprovider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
