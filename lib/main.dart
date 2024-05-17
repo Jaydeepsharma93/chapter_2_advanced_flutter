@@ -13,6 +13,7 @@ import 'package:chapter_2_advanced_flutter/screens/2.4%20CupertinoTabBar,%20Cupe
 import 'package:chapter_2_advanced_flutter/screens/2.5%20CupertinoActionSheet%20&%20CupertinoContextMenu/cupertino.dart';
 import 'package:chapter_2_advanced_flutter/screens/2.6%20Page%20View%20&%20BottomNavigationBar/Bottombar.dart';
 import 'package:chapter_2_advanced_flutter/screens/2.6%20Page%20View%20&%20BottomNavigationBar/provider/bottombarprovider.dart';
+import 'package:chapter_2_advanced_flutter/screens/2.8%20Sliver%20Widgets/sliver.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -40,7 +41,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/cupertino',
+      initialRoute: '/sliver',
       routes: {
         '/': (context) => const AndroidViewScreen(),
         '/ios': (context) => const IosView(),
@@ -52,7 +53,8 @@ class MyApp extends StatelessWidget {
         '/sliding': (context) => const SlidingTab(),
         '/slider': (context) => const SliderScreen(),
         '/bottom': (context) => const BottomBar(),
-        '/cupertino' :(context) => const CupertinoWidget()
+        '/cupertino' :(context) => const CupertinoWidget(),
+        '/sliver' : (context) => const SliverWidget()
       },
     );
   }
