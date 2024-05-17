@@ -134,3 +134,8 @@ Let's break down the code:
 <img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/8feb557b-8fd0-4511-abd1-9ce66dd97de4" width = 32%>
 <img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/20c48e71-86a3-4aa4-a40f-18b62491c676" width = 32%>
 <div><video src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/f2185d11-e533-4bd7-9fdf-ab1b2cb88578" width = 32%></div>
+
+# 2.8 Sliver Widgets
+
+<img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/7e9da132-7e62-4e47-95fb-c240b5f08315" width = 32%>
+<div><video src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/0dc0b05f-5127-456d-b97b-6c0162c7d2aa" width = 32%></div>
