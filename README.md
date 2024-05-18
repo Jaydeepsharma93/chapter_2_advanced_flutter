@@ -139,3 +139,14 @@ Let's break down the code:
 
 <img src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/7e9da132-7e62-4e47-95fb-c240b5f08315" width = 32%>
 <div><video src="https://github.com/Jaydeepsharma93/chapter_2_advanced_flutter/assets/143181361/0dc0b05f-5127-456d-b97b-6c0162c7d2aa" width = 32%></div>
+
+## SliverList: 
+   * Represents a single, vertically scrolling list.
+   * Similar to a standard ListView.
+   * Children are stacked vertically, one after the other.
+   * Ideal for displaying items in a linear sequence, like a feed, chat history, or to-do list.
+     
+## SliverGrid:
+   * Creates a grid layout for its children.
+   * Useful for displaying items in a two-dimensional arrangement, like a photo gallery, product catalog, or calendar view.
+   * Children are arranged in rows and columns based on a specified grid layout.
